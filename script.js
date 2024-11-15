@@ -14,22 +14,20 @@ function CriarTagIMG(alt, src) {
     return IMG;
 }
 
+function CriarTagValor(classe, valor) {
+    const Span2 = CriarElemento("span", classe);
+    Span2.innerHTML = `De: <span>${valor.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}</span>`;
+
+    return Span2;
+}
+
 function CriarDivProduto(produto) {
     const Div1 = CriarElemento("div", "container-produto");
+
     const Div2 = CriarElemento("div", "container-produto-descricao");
-
-    const Span2 = document.createElement("span");
-    Span2.className = "valor-de";
-    Span2.innerHTML = `De: <span>${produto.de.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}</span>`;
-
-    const Span3 = document.createElement("span");
-    Span3.className = "valor-por";
-    Span3.innerHTML = `De: <span>${produto.por.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })
-        }</span > `;
-
     Div2.appendChild(CriarElemento("span", "titulo", produto.nome));
-    Div2.appendChild(Span2);
-    Div2.appendChild(Span3);
+    Div2.appendChild(CriarTagValor("valor-de", produto.de));
+    Div2.appendChild(CriarTagValor("valor-por", produto.por));
     Div2.appendChild(CriarElemento("div", "descricao", produto.descricao));
 
     Div1.appendChild(CriarTagIMG(produto.imgalt, produto.imglink));
