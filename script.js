@@ -1,5 +1,13 @@
+function CriarElemento(tag, classe = "", text = "") {
+    const Elemento = document.createElement(tag);
+    Elemento.className = classe;
+    Elemento.innerText = text;
+
+    return Elemento;
+}
+
 function CriarTagIMG(alt, src) {
-    const IMG = document.createElement("img");
+    const IMG = CriarElemento("img");
     IMG.src = src;
     IMG.alt = alt;
 
@@ -7,15 +15,8 @@ function CriarTagIMG(alt, src) {
 }
 
 function CriarDivProduto(produto) {
-    const Div1 = document.createElement("div");
-    Div1.className = "container-produto";
-
-    const Div2 = document.createElement("div");
-    Div2.className = "container-produto-descricao";
-
-    const Span1 = document.createElement("span");
-    Span1.className = "titulo";
-    Span1.innerText = produto.nome;
+    const Div1 = CriarElemento("div", "container-produto");
+    const Div2 = CriarElemento("div", "container-produto-descricao");
 
     const Span2 = document.createElement("span");
     Span2.className = "valor-de";
@@ -26,14 +27,10 @@ function CriarDivProduto(produto) {
     Span3.innerHTML = `De: <span>${produto.por.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })
         }</span > `;
 
-    const Div3 = document.createElement("div");
-    Div3.className = "descricao";
-    Div3.innerText = produto.descricao;
-
-    Div2.appendChild(Span1);
+    Div2.appendChild(CriarElemento("span", "titulo", produto.nome));
     Div2.appendChild(Span2);
     Div2.appendChild(Span3);
-    Div2.appendChild(Div3);
+    Div2.appendChild(CriarElemento("div", "descricao", produto.descricao));
 
     Div1.appendChild(CriarTagIMG(produto.imgalt, produto.imglink));
     Div1.appendChild(Div2);
