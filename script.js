@@ -7,22 +7,22 @@ function CriarElemento(tag, classe = "", text = "") {
 }
 
 function CriarTagIMG(alt, src) {
-    const IMG = CriarElemento("img");
-    IMG.src = src;
-    IMG.alt = alt;
+    const ElementoIMG = CriarElemento("img");
+    ElementoIMG.src = src;
+    ElementoIMG.alt = alt;
 
-    return IMG;
+    return ElementoIMG;
 }
 
 function CriarTagValor(classe, valor) {
-    const Span2 = CriarElemento("span", classe);
-    Span2.innerHTML = `De: <span>${valor.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}</span>`;
+    const ElementoSpan = CriarElemento("span", classe);
+    ElementoSpan.innerHTML = `De: <span>${valor.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}</span>`;
 
-    return Span2;
+    return ElementoSpan;
 }
 
 function CriarDivProduto(produto) {
-    const Div1 = CriarElemento("div", "container-produto");
+    const ElementoProduto = CriarElemento("div", "container-produto");
 
     const Div2 = CriarElemento("div", "container-produto-descricao");
     Div2.appendChild(CriarElemento("span", "titulo", produto.nome));
@@ -30,9 +30,9 @@ function CriarDivProduto(produto) {
     Div2.appendChild(CriarTagValor("valor-por", produto.por));
     Div2.appendChild(CriarElemento("div", "descricao", produto.descricao));
 
-    Div1.appendChild(CriarTagIMG(produto.imgalt, produto.imglink));
-    Div1.appendChild(Div2);
-    return Div1;
+    ElementoProduto.appendChild(CriarTagIMG(produto.imgalt, produto.imglink));
+    ElementoProduto.appendChild(Div2);
+    return ElementoProduto;
 }
 
 async function CarregarProdutos() {
