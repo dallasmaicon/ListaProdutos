@@ -21,17 +21,20 @@ function CriarTagValor(classe, valor) {
     return ElementoSpan;
 }
 
+function CriarTagDescricaoProduto(produto) {
+    const ElementoDescricao = CriarElemento("div", "container-produto-descricao");
+    ElementoDescricao.appendChild(CriarElemento("span", "titulo", produto.nome));
+    ElementoDescricao.appendChild(CriarTagValor("valor-de", produto.de));
+    ElementoDescricao.appendChild(CriarTagValor("valor-por", produto.por));
+    ElementoDescricao.appendChild(CriarElemento("div", "descricao", produto.descricao));
+
+    return ElementoDescricao;
+}
+
 function CriarDivProduto(produto) {
     const ElementoProduto = CriarElemento("div", "container-produto");
-
-    const Div2 = CriarElemento("div", "container-produto-descricao");
-    Div2.appendChild(CriarElemento("span", "titulo", produto.nome));
-    Div2.appendChild(CriarTagValor("valor-de", produto.de));
-    Div2.appendChild(CriarTagValor("valor-por", produto.por));
-    Div2.appendChild(CriarElemento("div", "descricao", produto.descricao));
-
     ElementoProduto.appendChild(CriarTagIMG(produto.imgalt, produto.imglink));
-    ElementoProduto.appendChild(Div2);
+    ElementoProduto.appendChild(CriarTagDescricaoProduto(produto));
     return ElementoProduto;
 }
 
