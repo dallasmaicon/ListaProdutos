@@ -1,10 +1,14 @@
+function CriarTagIMG(alt, src) {
+    const IMG = document.createElement("img");
+    IMG.src = src;
+    IMG.alt = alt;
+
+    return IMG;
+}
+
 function CriarDivProduto(produto) {
     const Div1 = document.createElement("div");
     Div1.className = "container-produto";
-
-    const IMG = document.createElement("img");
-    IMG.src = produto.imglink;
-    IMG.alt = produto.imgalt;
 
     const Div2 = document.createElement("div");
     Div2.className = "container-produto-descricao";
@@ -31,7 +35,7 @@ function CriarDivProduto(produto) {
     Div2.appendChild(Span3);
     Div2.appendChild(Div3);
 
-    Div1.appendChild(IMG);
+    Div1.appendChild(CriarTagIMG(produto.imgalt, produto.imglink));
     Div1.appendChild(Div2);
     return Div1;
 }
