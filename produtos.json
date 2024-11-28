@@ -1,10 +1,26 @@
 [
     {
+        "codigo": 102038,
         "nome": "Luna Confiante Desodorante Colônia Feminino - 75 ml",
+        "marca": "Natura",
+        "linha": "",
+        "estoque": 2,
         "de": 169.9,
         "por": 68,
         "descricao": "Descubra Luna Confiante, uma fragrância envolvente que realça a confiança. Com o protagonismo do complexo de Musk, sua pele será envolvida por notas de Patchouli, flores brancas e um toque ambarado.",
         "imglink": "https://production.na01.natura.com/on/demandware.static/-/Sites-natura-br-storefront-catalog/default/dw7ddbc9df/produto-joia/background/mobile/102038.jpg",
         "imgalt": ""
+    },
+    {
+        "codigo": 102039,
+        "nome": "Luna Confiante Des Hidratante 300ML",
+        "marca": "Natura",
+        "linha": "",
+        "estoque": 2,
+        "por": 45,
+        "de": 80.90,
+        "imglink": "https://static.natura.com/cdn/ff/MhPkf_iAMgP5ybEHhxnSAeHZJnRBWiVKah0NE82pp7Q/1697477419/public/products/102039_6.jpg",
+        "imgalt": "",
+        "descricao": ""
     }
 ]
