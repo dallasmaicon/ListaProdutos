@@ -250,5 +250,77 @@
 		"imglink": "https://production.na01.natura.com/on/demandware.static/-/Sites-natura-br-storefront-catalog/default/dw83894914/produto-joia/background/mobile/125947.jpg",
 		"imgalt": "",
 		"descricao": "Sinta a pureza do frescor que oxigena. Kaiak 02 feminino combina notas cítricas borbulhantes com um buquê floral cristalino, que ganham ainda mais força com potentes notas aquáticas e a refrescância do poejo, ingrediente da biodiversidade brasileira"
+	},
+	{
+		"codigo": 15669,
+		"nome": "Seve Amendoas e flor Ameixa Oleo Des Hid 200ML",
+		"marca": "Natura",
+		"linha": "Seve",
+		"estoque": 7,
+		"por": 55,
+		"de": "R$ 105,90",
+		"imglink": "https://images.rede.natura.net/image/sku/1200x1200/15669_1.jpg",
+		"imgalt": "",
+		"descricao": "Enriquecido com óleo de amêndoas, Sève Amêndoas e Flor de Ameixa deixa a pele macia e hidratada o dia todo além de realçar o seu brilho natural. Sua fragrância vibrante e marcante, promove a intimidade com o corpo, aflorando beleza e feminilidade."
+	},
+	{
+		"codigo": 2458,
+		"nome": "Una Artisan Deo Parfum Feminino - 75ml",
+		"marca": "Natura",
+		"linha": "",
+		"estoque": 2,
+		"por": 145,
+		"de": "R$ 292,90",
+		"imglink": "https://production.na01.natura.com/on/demandware.static/-/Sites-natura-br-storefront-catalog/default/dw01901736/produto-joia/background/mobile/2458.jpg",
+		"imgalt": "",
+		"descricao": "Uma fragrância chipre floral autêntica, como uma peça feita à mão. A costura perfeita entre flores e madeiras quentes ganha um toque cremoso de baunilha e cassis. Enriquecido com priprioca, ingrediente natural da biodiversidade brasileira, Natura Una Artisan exala beleza e elegância."
+	},
+	{
+		"codigo": 54522,
+		"nome": "Deo Parfum Ilía Feminino - 50 ml",
+		"marca": "Natura",
+		"linha": "",
+		"estoque": 5,
+		"por": 85,
+		"de": "R$ 173,90",
+		"imglink": "https://production.na01.natura.com/on/demandware.static/-/Sites-natura-br-storefront-catalog/default/dw2154b35d/produto-joia/background/mobile/54522.png",
+		"imgalt": "",
+		"descricao": "Ilía Feminino é uma fragrância que exalta a força e a delicadeza da mulher. combinando notas florais e amadeiradas, esta fragrância traduz a essência de uma feminilidade autêntica e elegante."
+	},
+	{
+		"codigo": 70825,
+		"nome": "Erva Doce Des Rollon Antimanc 70ML",
+		"marca": "Natura",
+		"linha": "",
+		"estoque": 9,
+		"por": 19,
+		"de": "R$ 27,90",
+		"imglink": "https://production.na01.natura.com/on/demandware.static/-/Sites-natura-br-storefront-catalog/default/dw7e8b629c/produto-joia/background/mobile/70825.jpg",
+		"imgalt": "",
+		"descricao": "Natura Desodorante Antitranspirante Roll-on Erva Doce te proporciona proteção contra o suor e o mau odor por 48 horas, deixando sua pele com uma sensação de frescor e bem-estar. sua fórmula suave e delicada, enriquecida com o aroma da erva-doce, proporciona uma experiência sensorial agradável, sem irritar a pele."
+	},
+	{
+		"codigo": 124746,
+		"nome": "Luna Rosé Desodorante Colônia - 75 ml",
+		"marca": "Natura",
+		"linha": "",
+		"estoque": 4,
+		"por": 84,
+		"de": "R$ 169,90",
+		"imglink": "https://static.natura.com/cdn/ff/IcJHqrxEyKy5ZW1MGP-RbPakfbrvgeFnDD7sVAyY-cY/1697617283/public/products/124746_0.jpg",
+		"imgalt": "",
+		"descricao": "Este item exclusivo é uma ótima opção de presente para quem é fã do caminho chipre de Luna. Luna Rosé convida as mulheres a valorizarem sua identidade e feminilidade."
+	},
+	{
+		"codigo": 49680,
+		"nome": "L'eau de Lily Soleil Desodorante Colônia 75ml",
+		"marca": "Boticário",
+		"linha": "",
+		"estoque": 1,
+		"por": 145,
+		"de": "R$ 199,90",
+		"imglink": "https://res.cloudinary.com/beleza-na-web/image/upload/w_297,f_auto,fl_progressive,q_auto:eco,w_80/v1/imagens/product/B49680/df94f708-5ec5-435f-8ab2-e1da582fa8b6-bot-49680-lily-soleil-colonia-frontal-01.jpg",
+		"imgalt": "",
+		"descricao": "Para aquelas que almejam a descoberta da melhor versão de si, L'eau de Lily Soleil Desodorante Colônia traz um novo olfativo floral para uma rotina mais perfumada."
 	}
 ]
