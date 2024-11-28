@@ -322,5 +322,53 @@
 		"imglink": "https://res.cloudinary.com/beleza-na-web/image/upload/w_297,f_auto,fl_progressive,q_auto:eco,w_80/v1/imagens/product/B49680/df94f708-5ec5-435f-8ab2-e1da582fa8b6-bot-49680-lily-soleil-colonia-frontal-01.jpg",
 		"imgalt": "",
 		"descricao": "Para aquelas que almejam a descoberta da melhor versão de si, L'eau de Lily Soleil Desodorante Colônia traz um novo olfativo floral para uma rotina mais perfumada."
+	},
+	{
+		"codigo": 25543,
+		"nome": "Refil Óleo Desodorante Corporal Sève Pimenta Rosa",
+		"marca": "Natura",
+		"linha": "",
+		"estoque": 2,
+		"por": 42,
+		"de": "R$ 89,90",
+		"imglink": "https://static.natura.com/cdn/ff/ZXNIgjyHovcQUk84EaR-LAK8K9all5HtkTYlprRWVX8/1697481701/public/products/25543_0.jpg",
+		"imgalt": "",
+		"descricao": "Enriquecido com óleo de amêndoas, o Refil Óleo Desodorante Corporal Sève Pimenta Rosa deixa a pele macia e hidratada o dia todo, além de realçar o seu brilho natural. Sua fragrância sensual e exótica promove a intimidade com o corpo, aflorando a beleza e a feminilidade."
+	},
+	{
+		"codigo": 76421,
+		"nome": "Deo Parfum Essencial Feminino - 100 ml",
+		"marca": "Natura",
+		"linha": "",
+		"estoque": 1,
+		"por": 130,
+		"de": "R$ 259,90",
+		"imglink": "https://production.na01.natura.com/on/demandware.static/-/Sites-natura-br-storefront-catalog/default/dw422ff18f/produto-joia/background/mobile/76421.jpg",
+		"imgalt": "",
+		"descricao": "Essencial Feminino é uma fragrância sofisticada que combina elegância e intensidade. com notas florais e amadeiradas, é perfeito para a mulher que busca uma presença marcante e refinada, ideal para todas as ocasiões."
+	},
+	{
+		"codigo": 15673,
+		"nome": "Desodorante Corporal Essencial Feminino - 100 ml",
+		"marca": "Natura",
+		"linha": "",
+		"estoque": 2,
+		"por": 28,
+		"de": 59.9,
+		"imglink": "https://static.natura.com/cdn/ff/fqX84rAkLn-RJt6UQgwuaPIvGoJg-FM5OUZqb6DrTDg/1697013254/public/products/15673_3.jpg",
+		"imgalt": "",
+		"descricao": "Não há nada melhor que a sensação de bem-estar e frescor que você sente quando se cuida. O desodorante corporal Essencial feminino foi desenvolvido para manter você protegida e perfumada ao longo do dia, com fragrância inspirada em um dos maiores sucessos da perfumaria Natura. Sua fórmula combina tecnologia desodorante, que protege contra os odores da transpiração, com uma perfumação perfeita para o seu dia a dia. Sensação de frescor e bem-estar para o corpo todo. Este produto possui refil."
+	},
+	{
+		"codigo": 100535,
+		"nome": "Tododia Sabonete Barra 5x90g",
+		"marca": "Natura",
+		"linha": "",
+		"estoque": 1,
+		"por": 20,
+		"de": 32.4,
+		"imglink": "https://static.natura.com/cdn/ff/34ANzcWgk7TxLj3X_8MFvYCWy9gGlmBXo4jnupNYQNw/1697615171/public/products/100535_0.jpg",
+		"imgalt": "",
+		"descricao": "Vários sabores: <br /> Sortidos <br /> Tamara Canela <br /> Noz Peca <br /> Capim Limão e Hortela <br /> Flor de Lis <br /> Amora Vermelha e Jabuticaba <br /> Cereja e Avelã <br /> Algodão <br /> Alecrim e Sálvia"
 	}
 ]

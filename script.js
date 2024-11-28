@@ -21,12 +21,19 @@ function CriarTagValor(classe, valor) {
     return ElementoSpan;
 }
 
+function CriarCampoDescricao(classe, text) {
+    const ElementoSpan = CriarElemento("div", classe);
+    ElementoSpan.innerHTML = text;
+
+    return ElementoSpan;
+}
+
 function CriarTagDescricaoProduto(produto) {
     const ElementoDescricao = CriarElemento("div", "container-produto-descricao");
     ElementoDescricao.appendChild(CriarElemento("span", "titulo", produto.nome));
     ElementoDescricao.appendChild(CriarTagValor("valor-de", produto.de));
     ElementoDescricao.appendChild(CriarTagValor("valor-por", produto.por));
-    ElementoDescricao.appendChild(CriarElemento("div", "descricao", produto.descricao));
+    ElementoDescricao.appendChild(CriarCampoDescricao("descricao", produto.descricao));
 
     return ElementoDescricao;
 }
