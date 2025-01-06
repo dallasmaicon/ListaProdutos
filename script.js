@@ -28,12 +28,21 @@ function CriarCampoDescricao(classe, text) {
     return ElementoSpan;
 }
 
+function CriarBotaoWhatsapp(nome) {
+    const ElementoBotao = CriarElemento("a", "botao-whatsapp", "WhatsApp");
+    ElementoBotao.target = "_blank";
+    ElementoBotao.href = "https://api.whatsapp.com/send?phone=55996034619&text=Olá,%20tenho%20interesse%20no%20produto:%20" + nome;
+
+    return ElementoBotao;
+}
+
 function CriarTagDescricaoProduto(produto) {
     const ElementoDescricao = CriarElemento("div", "container-produto-descricao");
     ElementoDescricao.appendChild(CriarElemento("span", "titulo", produto.nome));
     ElementoDescricao.appendChild(CriarTagValor("valor-de", produto.de));
     ElementoDescricao.appendChild(CriarTagValor("valor-por", produto.por));
     ElementoDescricao.appendChild(CriarCampoDescricao("descricao", produto.descricao));
+    ElementoDescricao.appendChild(CriarBotaoWhatsapp(produto.nome));
 
     return ElementoDescricao;
 }

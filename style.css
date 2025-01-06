@@ -56,6 +56,22 @@
     line-height: 1.2;
 }
 
+.botao-whatsapp {
+    background-color: rgb(52, 224, 66);
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botao-whatsapp:hover {
+    background-color: rgb(33, 231, 50);
+}
+
 @media (max-width: 1400px) {
     .container-produto {
         width: 45%;
